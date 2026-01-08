@@ -1,11 +1,5 @@
 # BlogApp-Backend-
 A RESTful blog backend built with Node.js, Express, and MongoDB. Supports creating posts, adding comments, liking/unliking posts, and fetching related data using Mongoose population. Follows MVC architecture and REST best practices.
-# Blog App Backend 🚀
-
-A simple RESTful backend for a blog application built using **Node.js, Express, and MongoDB (Mongoose)**.  
-This project supports creating posts, adding comments, liking/unliking posts, and fetching posts with related data.
-
----
 
 ## 📌 Features
 
@@ -30,4 +24,26 @@ This project supports creating posts, adding comments, liking/unliking posts, an
 ---
 
 ## 📂 Project Structure
+blog-backend/
+│
+├── config/
+│ └── database.js
+│
+├── controllers/
+│ ├── CommentController.js
+│ ├── LikeController.js
+│ └── PostController.js
+│
+├── models/
+│ ├── commentModel.js
+│ ├── likeModel.js
+│ └── postModel.js
+│
+├── routes/
+│ └── blogRoutes.js
+│
+├── .env
+├── index.js
+├── package.json
+└── README.md
 
